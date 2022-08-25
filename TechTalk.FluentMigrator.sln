@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechTalk.FluentMigrator.Api", "src\TechTalk.FluentMigrator\TechTalk.FluentMigrator.Api.csproj", "{1B71551F-9C88-4AE3-8AE7-95261AF36E6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Application", "01 - Application", "{4110CC8A-A10E-47F0-899F-15B2C1C56AEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infra", "03 - Infra", "{989D11C2-6710-4CDA-9EA6-B63CA240F61B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechTalk.FluentMigrator.Infra", "src\TechTalk.FluentMigrator.Infra\TechTalk.FluentMigrator.Infra.csproj", "{3DA5A19F-6A3F-4F8C-A282-C7C6C4D94025}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{4536E19E-A95B-4AB1-B439-BA4638683068}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechTalk.FluentMigrator.Domain", "src\TechTalk.FluentMigrator.Domain\TechTalk.FluentMigrator.Domain.csproj", "{8E74F3F9-E576-4E8E-983A-E9F4B9932B73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B71551F-9C88-4AE3-8AE7-95261AF36E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B71551F-9C88-4AE3-8AE7-95261AF36E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B71551F-9C88-4AE3-8AE7-95261AF36E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B71551F-9C88-4AE3-8AE7-95261AF36E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA5A19F-6A3F-4F8C-A282-C7C6C4D94025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA5A19F-6A3F-4F8C-A282-C7C6C4D94025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA5A19F-6A3F-4F8C-A282-C7C6C4D94025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA5A19F-6A3F-4F8C-A282-C7C6C4D94025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E74F3F9-E576-4E8E-983A-E9F4B9932B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E74F3F9-E576-4E8E-983A-E9F4B9932B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E74F3F9-E576-4E8E-983A-E9F4B9932B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E74F3F9-E576-4E8E-983A-E9F4B9932B73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B71551F-9C88-4AE3-8AE7-95261AF36E6F} = {4110CC8A-A10E-47F0-899F-15B2C1C56AEB}
+		{3DA5A19F-6A3F-4F8C-A282-C7C6C4D94025} = {989D11C2-6710-4CDA-9EA6-B63CA240F61B}
+		{8E74F3F9-E576-4E8E-983A-E9F4B9932B73} = {4536E19E-A95B-4AB1-B439-BA4638683068}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04137F8D-94A8-4A9D-9AB1-398E866E550B}
+	EndGlobalSection
+EndGlobal

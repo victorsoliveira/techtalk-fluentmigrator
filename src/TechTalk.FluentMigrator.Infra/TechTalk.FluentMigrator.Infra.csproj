@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentMigrator" Version="3.3.2" />
+    <PackageReference Include="FluentMigrator.Abstractions" Version="3.3.2" />
+    <PackageReference Include="FluentMigrator.Runner" Version="3.3.2" />
+    <PackageReference Include="Marten" Version="3.13.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TechTalk.FluentMigrator.Domain\TechTalk.FluentMigrator.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
